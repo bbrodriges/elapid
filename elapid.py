@@ -148,7 +148,9 @@ class Elapid:
             result = extension
 
         return result
-
-input = r'C:\Users\bender\PycharmProjects\comtypes_test\slides.zip'
-output = r'C:\Users\bender\PycharmProjects\comtypes_test\out'
+        
+''' TEST LINES
+input = r'C:\Users\bender\elapid\slides.zip'
+output = r'C:\Users\bender\elapid\out'
 converter = Elapid(input, output)
+'''
